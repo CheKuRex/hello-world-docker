@@ -9,5 +9,5 @@ A lightweight Docker image that serves a customizable "Hello \<name>" message ov
 ### 1. 🐳 Run via Docker CLI
 
 ```bash
-docker build -t hello-fastapi .
-docker run -p 8000:8000 -e replace_world_with_name="Test" hello-fastapi
+docker build -t hello-world-docker .
+docker run -p 8000:8000 -e replace_world_with_name="Test" chekurex/hello-world-docker:latest
